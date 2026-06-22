@@ -9,35 +9,62 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
         integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100..900&display=swap" rel="stylesheet">
+    <style>
+        .roboto {
+            font-family: "Roboto", sans-serif;
+        }
+    </style>
+    </style>
 </head>
 
-<body>
-    <section>
-        <div class=" lg:flex justify-center w-10/12 mx-auto  items-center pt-10">
-            <div class="banner-title">
-                <h1 class="font-bold text-7xl">It's good <br>tea time at The Tea House</h1>
-                <p class=" text-[#777777] text-lg pb-5">Tea and Botanical Solutions Supplier Give Optimum <br>
-                    Satisfaction To Your Taste Buds.</p>
-                <button class="bg-gradient-to-r from-[#FF8938] to-[#FF0000] p-4 rounded-lg text-white">Explore More
-                    <i class="fa-solid fa-arrow-right  -rotate-45  "></i>
-                </button>
+<body class="roboto">
+    <header>
+        <nav class="w-10/12 mx-auto flex justify-between items-center py-5">
+
+            <div>
+                <img src="./images/navbar.png" alt="Logo" class="w-16  ">
             </div>
-            <div class="banner-img relative">
-                <img src="./images/banner.png" alt="">
 
-                <div class="absolute bottom-5 left-5 flex bg-white p-5 w-56 gap-5 items-center rounded-xl shadow-lg">
-                    <div>
-                        <i class="fa-solid fa-star text-orange-400 text-4xl"></i>
-                    </div>
 
-                    <div>
-                        <h2 class="text-4xl font-bold">5.0</h2>
-                        <p class="text-sm">Trust Pilot Ratings</p>
+            <ul class="flex gap-8 font-medium">
+                <li><a href="#" class="hover:text-orange-500">Home</a></li>
+                <li><a href="#" class="hover:text-orange-500">About</a></li>
+                <li><a href="#" class="hover:text-orange-500">Services</a></li>
+                <li><a href="#" class="hover:text-orange-500">Contact</a></li>
+            </ul>
+        </nav>
+        <section>
+            <div class=" lg:flex justify-center w-10/12 mx-auto  items-center pt-10">
+                <div class="banner-title">
+                    <h1 class="font-bold text-7xl">It's good <br>tea time at The Tea House</h1>
+                    <p class=" text-[#777777] text-lg pb-5">Tea and Botanical Solutions Supplier Give Optimum <br>
+                        Satisfaction To Your Taste Buds.</p>
+                    <button class="bg-gradient-to-r from-[#FF8938] to-[#FF0000] p-4 rounded-lg text-white">Explore More
+                        <i class="fa-solid fa-arrow-right  -rotate-45  "></i>
+                    </button>
+                </div>
+                <div class="banner-img relative">
+                    <img src="./images/banner.png" alt="">
+
+                    <div
+                        class="absolute bottom-5 left-5 flex bg-white p-5 w-56 gap-5 items-center rounded-xl shadow-lg">
+                        <div>
+                            <i class="fa-solid fa-star text-orange-400 text-4xl"></i>
+                        </div>
+
+                        <div>
+                            <h2 class="text-4xl font-bold">5.0</h2>
+                            <p class="text-sm">Trust Pilot Ratings</p>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
+    </header>
+
     <section>
         <div class="text-center w-10/12 mx-auto pt-10 pb-10">
             <h2 class="text-4xl font-bold">Our Featured Products</h2>
@@ -45,23 +72,23 @@
                 have suffered alteration
                 in some form, by injected humour, or randomised words which don't look even slightly believable. </p>
         </div>
-        <div class="lg:flex w-10/12 mx-auto justify-center items-center gap-6 pt-10 pb-10">
-            <div class="text-center bg-gradient-to-r from-[#F4F4F4] to-[#F4F4F4] p-5 rounded-lg">
+        <div class="lg:flex w-10/12 mx-auto justify-center items-center gap-6 pt-10 pb-10  ">
+            <div class="text-center bg-gradient-to-r from-[#F4F4F4] to-[#F4F4F4] p-5 rounded-lg mb-5 pb-20">
                 <img src="./images/tea-1.png" alt="" class=" mx-auto">
                 <h2 class="font-bold text-xl">Milk Tea</h2>
                 <p class="text-[#777777]">Creamer could be replaced by fresh milk</p>
             </div>
-            <div class="text-center bg-gradient-to-r from-[#F4F4F4] to-[#F4F4F4] p-5 rounded-lg">
+            <div class="text-center bg-gradient-to-r from-[#F4F4F4] to-[#F4F4F4] p-5 rounded-lg mb-5 pb-20">
                 <img src="./images/tea-2.png" alt="" class=" mx-auto">
                 <h2 class="font-bold text-xl">Lemon Tea</h2>
                 <p class="text-[#777777]">Creamer could be replaced by fresh milk</p>
             </div>
-            <div class="text-center bg-gradient-to-r from-[#F4F4F4] to-[#F4F4F4] p-5 rounded-lg">
+            <div class="text-center bg-gradient-to-r from-[#F4F4F4] to-[#F4F4F4] p-5 rounded-lg mb-5 pb-20">
                 <img src="./images/tea-3.png" alt="" class=" mx-auto">
                 <h2 class="font-bold text-xl">Black Tea</h2>
                 <p class="text-[#777777]">Creamer could be replaced by fresh milk</p>
             </div>
-            <div class="text-center bg-gradient-to-r from-[#F4F4F4] to-[#F4F4F4] p-5 rounded-lg">
+            <div class="text-center bg-gradient-to-r from-[#F4F4F4] to-[#F4F4F4] p-5 rounded-lg mb-5 pb-20">
                 <img src="./images/tea-4.png" alt="" class=" mx-auto">
                 <h2 class="font-bold text-xl">Green Tea</h2>
                 <p class="text-[#777777]">Creamer could be replaced by fresh milk</p>
@@ -150,7 +177,8 @@
     <section>
         <div class="w-8/12 mx-auto justify-center text-center">
             <h2 class="text-4xl font-bold">News & Events</h2>
-            <p class="text-[#777777] text-lg pb-5">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration
+            <p class="text-[#777777] text-lg pb-5">There are many variations of passages of Lorem Ipsum available, but
+                the majority have suffered alteration
                 in some form, by injected humour, or randomised words which don't look even slightly believable. </p>
         </div>
         <div class=" w-10/12 mx-auto py-10">
@@ -160,7 +188,8 @@
                     <div class="p-5">
                         <p class="text-[#777777] text-lg">Feb 05, 2027</p>
                         <h3 class="text-xl font-bold">Collecting 8 points for <br> discount</h3>
-                        <p class="py-3 text-[#777777] text-lg">There are many variations of passages of Lorem Ipsum available.</p>
+                        <p class="py-3 text-[#777777] text-lg">There are many variations of passages of Lorem Ipsum
+                            available.</p>
                         <h4 class="font-bold">Lorem More</h4>
                     </div>
                 </div>
@@ -169,7 +198,8 @@
                     <div class="p-5">
                         <p class="text-[#777777] text-lg">Feb 05, 2027</p>
                         <h3 class="text-xl font-bold">Collecting 8 points for <br> discount</h3>
-                        <p class="py-3 text-[#777777] text-lg">There are many variations of passages of Lorem Ipsum available.</p>
+                        <p class="py-3 text-[#777777] text-lg">There are many variations of passages of Lorem Ipsum
+                            available.</p>
                         <h4 class="font-bold">Lorem More</h4>
                     </div>
                 </div>
@@ -178,13 +208,89 @@
                     <div class="p-5">
                         <p class="text-[#777777] text-lg">Feb 05, 2027</p>
                         <h3 class="text-xl font-bold">Collecting 8 points for <br> discount</h3>
-                        <p class="py-3 text-[#777777] text-lg">There are many variations of passages of Lorem Ipsum available.</p>
+                        <p class="py-3 text-[#777777] text-lg">There are many variations of passages of Lorem Ipsum
+                            available.</p>
                         <h4 class="font-bold">Lorem More</h4>
                     </div>
                 </div>
             </div>
         </div>
     </section>
+    <footer class="bg-[#FFEEE9] py-10">
+        <div class="w-10/12 mx-auto">
+            <div class="flex flex-col lg:flex-row justify-between items-center mb-16">
+                <img src="./images/cup.png" alt="">
+
+                <div class="flex items-center gap-5 mt-5 lg:mt-0">
+                    <p class="text-[#494949]">Ready to get started?</p>
+                    <button
+                        class="bg-gradient-to-r from-orange-500 to-red-500 text-white px-6 py-3 rounded-lg font-semibold">
+                        Get Started
+                    </button>
+                </div>
+            </div>
+
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10">
+
+                <div>
+                    <h3 class="font-bold text-lg mb-4">Quick Links</h3>
+                    <ul class="space-y-2 text-[#777777]">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Insurance</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h3 class="font-bold text-lg mb-4">Our Service</h3>
+                    <ul class="space-y-2 text-[#777777]">
+                        <li><a href="#">Life Insurance</a></li>
+                        <li><a href="#">Car Insurance</a></li>
+                        <li><a href="#">Health Insurance</a></li>
+                        <li><a href="#">House Insurance</a></li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h3 class="font-bold text-lg mb-4">Help</h3>
+                    <ul class="space-y-2 text-[#777777]">
+                        <li><a href="#">FAQs</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h3 class="font-bold text-xl  mb-5">
+                        Subscribe to our newsletter
+                    </h3>
+
+                    <div class="flex items-center border-b border-gray-400 pb-2">
+                        <input type="email" placeholder="Email address"
+                            class="bg-transparent outline-none w-full text-sm">
+
+                        <button class="w-7 h-7 rounded-full bg-gradient-to-r from-orange-500 to-red-500 text-white">
+                            >
+                        </button>
+                    </div>
+
+                    <div class="flex gap-4 mt-6">
+                        <i class="fa-brands fa-facebook-f"></i>
+                        <i class="fa-brands fa-twitter"></i>
+                        <i class="fa-brands fa-instagram"></i>
+                    </div>
+                </div>
+
+            </div>
+
+
+            <div class="text-center text-[#777777] mt-16">
+                <p>© 2027 UIDesign.to - All rights reserved.</p>
+            </div>
+
+        </div>
+    </footer>
 </body>
 
 </html>
